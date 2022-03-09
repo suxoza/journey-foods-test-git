@@ -9,7 +9,7 @@ api2 = Blueprint("app2", __name__, url_prefix = '/app2')
 @api.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'Hello World!'
+    return 'Hello World! changed here'
 
 @api2.route('/')
 def hello2():
