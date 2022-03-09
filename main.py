@@ -3,7 +3,7 @@ from flask import Flask, Blueprint
 app = Flask(__name__)
 api = Blueprint("app", __name__, url_prefix = '/')
 api2 = Blueprint("app2", __name__, url_prefix = '/app2')
-
+ 
 
 
 @api.route('/')
